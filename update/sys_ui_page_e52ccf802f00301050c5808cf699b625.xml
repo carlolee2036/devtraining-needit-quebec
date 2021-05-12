@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script/>
+        <description>primeira ui page</description>
+        <direct>false</direct>
+        <endpoint>x_58872_needit_primeira.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<html>
+		<header>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+		</header>
+		<body>
+		
+			<div ng-app="">
+				<input type="text" value="carlos" ng-model="myVar"/>
+				{{myVar}}
+			</div>	
+			
+		</body>	
+	</html>
+</j:jelly>]]></html>
+        <name>primeira</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-06 14:25:24</sys_created_on>
+        <sys_id>e52ccf802f00301050c5808cf699b625</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>primeira</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_page_e52ccf802f00301050c5808cf699b625</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-06 14:58:09</sys_updated_on>
+    </sys_ui_page>
+</record_update>
